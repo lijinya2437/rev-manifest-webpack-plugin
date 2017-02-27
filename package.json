@@ -1,11 +1,22 @@
 {
-  "name": "rev-manifest-webpack-plugin",
+  "name": "revsion-webpack-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijinya2437/rev-manifest-webpack-plugin.git"
+  },
+  "keywords": [
+    "rev-manifest"
+  ],
   "author": "lijinya",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijinya2437/rev-manifest-webpack-plugin"
+  },
+  "homepage": "https://github.com/lijinya2437/rev-manifest-webpack-plugin"
 }
