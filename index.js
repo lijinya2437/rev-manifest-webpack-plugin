@@ -28,8 +28,10 @@ class GenerateRevManifestPlugin {
 	
 		    for (let fileOrign in stats.assetsByChunkName) {
 				for(let filename of stats.assetsByChunkName[fileOrign]){
-					let attribute = fileOrign + path.parse(filename).ext;
-					assetfileList[attribute] = filename;
+					let fileParse = path.parse(filename);
+					let value = fileParse.name + fileParse.ext;
+					let attribute = fileOrign + fileParse.ext;
+					assetfileList[attribute] = value;
 				}
 		    }
 	    
