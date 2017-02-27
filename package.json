@@ -1,5 +1,5 @@
 {
-  "name": "re-mainfest-plugin",
+  "name": "rev-manifest-webpack-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
